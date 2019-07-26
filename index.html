@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +8,31 @@
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <header>
-        <img src="assets/lab-assets/logo.png" alt="Logo">
-        
-        <h2>Delicious</h2>
+        <h2 class="header"><img src="assets/lab-assets/logo.png" alt="Logo">Delicious</h2>
         <h3>THE BEST FOOD BLOG ON THE WEB.</h3>
 
         <ul>
-            <li><img src="assets/lab-assets/fb-icon.png" alt="FaceBook icon"></li>
-            <li><img src="assets/lab-assets/twit-icon.png" alt="Twitter icon"></li>
-            <li><img src="assets/lab-assets/gp-icon.png" alt="Google+ icon"></li>
-            <li><img src="assets/lab-assets/insta-icon.png" alt="Instagram icon"></li>
-            <li><img src="assets/lab-assets/flic-icon.png" alt="Flickr icon"></li>
-            <li><img src="assets/lab-assets/pint-icon.png" alt="Pinterest icon"></li>
+            <li class="icons"><img src="assets/lab-assets/fb-icon.png" alt="FaceBook icon"></li>
+            <li class="icons"><img src="assets/lab-assets/twit-icon.png" alt="Twitter icon"></li>
+            <li class="icons"><img src="assets/lab-assets/gp-icon.png" alt="Google+ icon"></li>
+            <li class="icons"><img src="assets/lab-assets/insta-icon.png" alt="Instagram icon"></li>
+            <li class="icons"><img src="assets/lab-assets/flic-icon.png" alt="Flickr icon"></li>
+            <li class="icons"><img src="assets/lab-assets/pint-icon.png" alt="Pinterest icon"></li>
         </ul>
         <ul>
-            <li><img src="assets/lab-assets/rss-icon.png" alt="RSS icon"></li>
-            <li><img src="assets/lab-assets/mail-icon.png" alt="Mail icon"></li>
+            <li class="icons"><img src="assets/lab-assets/rss-icon.png" alt="RSS icon"></li>
+            <li class="icons"><img src="assets/lab-assets/mail-icon.png" alt="Mail icon"></li>
         </ul>
-        <hr>
+
+        <hr class="image-hr">
     </header>
 
     <main>
         <h1>Chocolate Pizza</h1>
-        <h2>POSTED ON 15 DEC 2013 / DESSERTS <img src="assets/lab-assets/print-icon.png" alt="Print icon"></h2>                   
+        <h2>POSTED ON 15 DEC 2013 / DESSERTS <span class="print"><img src="assets/lab-assets/print-icon.png" alt="Print icon">PRINT</span></h2>
 
         <img src="assets/lab-assets/choco-pizza.png" alt="Chocolate pizza image">
 
@@ -49,56 +50,62 @@
         </p>
 
         <p>
-            Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, 
+            Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
+            instructions,
             i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts.
             Continue the process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware.
             Freeze for at least two hours before serving.
         </p>
 
-        <ul>
-            <li>1 1/2 cups milk</li>
-            <li>1/2 cup mascarpone</li>
-            <li>1/2 tsp pink salt</li>
-            <li>1 lb Black Mission Figs</li>
-            <li>1/2 cup brown sugar</li>
-            <li>2-4 tbsp water</li>
-        </ul>
 
-        <ul>
-            <li>1 1/2 cups heavy cream</li>
-            <li>4/3 granulated sugar</li>
-            <li>2 egg yolks</li>
-            <li>1 lemon, juiced</li>
-            <li>2 tbsp butter</li>
-            <li>1 cup honey roasted pecans, roughly chopped</li>
-        </ul>
+        <div class="ingredients">
+            <ul>
+                <li>1 1/2 cups milk</li>
+                <li>1/2 cup mascarpone</li>
+                <li>1/2 tsp pink salt</li>
+                <li>1 lb Black Mission Figs</li>
+                <li>1/2 cup brown sugar</li>
+                <li>2-4 tbsp water</li>
+            </ul>
+
+            <ul >
+                <li>1 1/2 cups heavy cream</li>
+                <li>4/3 granulated sugar</li>
+                <li>2 egg yolks</li>
+                <li>1 lemon, juiced</li>
+                <li>2 tbsp butter</li>
+                <li>1 cup honey roasted pecans, roughly chopped</li>
+            </ul>
+        </div>
+        <hr class="image-hr">
     </main>
 
     <footer>
-        <hr>
-
-        <img src="assets/lab-assets/van-pic.png" alt="picture of Vanessa Stevenson">
-            <section>
-                <h2>Vanessa Stevenson</h2>
-
-                <p>
-                    Food enthusiast, photography fan.
-                    Add a pinch of raw foodism and that's pretty much who I am.
-                </p>
-            </section>
-
-            <input type="button" value="Share Recipe">
-            <img src="assets/lab-assets/small-logo.png" alt="logo">
-
-            <section>
-                <p>
-                    Delicious © 2013 . All Rights Reserved.
-                </p>
-
-                <p>
-                    Proudly published with Ghost.
-                </p>
-            </section>
-    </footer>
+            <div class="divider"></div>
+            <div id="footer">
+                <img class="portrait" src="assets/lab-assets/van-pic.png" alt="picture of Vanessa Stevenson">
+                <section class="about-me">
+                    <h2>Vanessa Stevenson</h2>
+                    <p class="bio">
+                        Food enthusiast, photography fan.
+                        Add a pinch of raw foodism and that's pretty much who I am.
+                    </p>
+                </section>
+                <input id="recipe-button" type="button" value="Share Recipe">
+                <div class="logo-line">
+                    <hr>
+                    <img class="footer-logo" src="assets/lab-assets/small-logo.png" alt="logo">
+                </div>
+                <section>
+                    <p class="copyright">
+                        Delicious © 2013 . All Rights Reserved.
+                    </p>
+                    <p class="copyright">
+                        Proudly published with Ghost.
+                    </p>
+                </section>
+            </div>
+        </footer>
 </body>
+
 </html>
