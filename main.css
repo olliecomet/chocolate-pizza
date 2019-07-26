@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+   }
+   body {
+      display: grid;
+      grid-template-columns: 1fr 901px 1fr;
+      grid-template-rows: auto;
+   }
+   div {
+      position: relative;
+   }
+   header, footer, main {
+      grid-column: 2;
+   }
+   .portrait {
+      float: left;
+   }
+   .about-me {
+      position: relative;
+      left: 10px;
+   }
+   .bio {
+      box-sizing: content-box;
+      width: 550px;
+   }
+   #recipe-button {
+      position: absolute;
+      right: 0px;
+      top: 20px;
+      background-color: darkorange;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+   }
+
+/*li {
+    list-style: none;
+    display: inline;
+}*/
