@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 901px 1fr;
+    grid-template-rows: auto;
+}
+
+div {
+    position: relative;
+}
+
+header, footer, main {
+    grid-column: 2;
+}
+
+.portrait {
+    float: left;
+}
+
+.about-me {
+    position: relative;
+    left: 10px;
+}
+
+.bio {
+    box-sizing: content-box;
+    width: 550px;
+}
+
+#recipe-button {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.icons {
+    list-style: none;
+    display: inline;
+}
+
+.image-hr {
+   background-image: url(assets/lab-assets/hr-img.png);
+   width: 100%;
+   height: 15px;
+}
+
+.ingredients {
+    background-image: url(assets/lab-assets/list-bg.png)
+}
+
+ .print {
+    float: right;
+ }
+
+ h2 {
+    font-size: 15px;
+    font-weight: thin;
+ }
+
+ h1 {
+    font-size: 40px;
+    line-height: 1px;
+    margin-top: 60px;
+ }
+
+ .icons {
+    float: left;
+ }
+
+.header { 
+    font-size: 30px;
+ }
+
+ p {
+     font-size: 20px;
+     text-indent: 30px;
+ }
+
+ .divider {
+    background-image: url(./lab-assets/hr-img.png);
+    width: 100%;
+    height: 10px;
+ }
+ .portrait {
+    float: left;
+ }
+ .about-me {
+    position: relative;
+    left: 10px;
+ }
+ .bio {
+    box-sizing: content-box;
+    width: 550px;
+ }
+ #recipe-button {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+ }
+ .logo-line {
+    position: relative;
+    margin: 95px 0 10px;
+ }
+ .footer-logo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 25px;
+ }
+ .copyright {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: darkgray;
+    top: 20px;
+ }
+ #footer {
+    margin-bottom: 60px;
+ }
+
+ 
